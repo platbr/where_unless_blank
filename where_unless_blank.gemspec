@@ -9,9 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Wagner Caixeta"]
   spec.email         = ["wagner.caixeta@al.go.leg.br"]
 
-  spec.summary       = %q{This gem removes statements with null/blank values from query.}
+  spec.summary       = %q{This gem creates a simple way to remove statements with null/blank values from query.}
   spec.description   = %q{
-    This gem removes statements with null/blank values from query.
+    The behavior of "where" when querrying for a null value is include the statment and return rows with null value.
+    This gem creates a simple way to remove statements with null/blank values from query.
     Very usefull for search forms avoiding you to worry about unfilled fields.
   }
   spec.homepage      = "https://github.com/platbr/where_unless_blank"
