@@ -1,8 +1,8 @@
 # WhereUnlessBlank
 
-The default behavior of "where" when querrying for a null value is include the statment and return rows with null value.
+The behavior of "where" when querrying for a null value is include the statment and return rows with null value.
 
-This gem removes statements with null/blank values from query.
+This gem creates a simple way to remove statements with null/blank values from query.
 
 Very usefull for search forms avoiding you to worry about unfilled fields.
 
