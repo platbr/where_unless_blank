@@ -38,4 +38,4 @@ If all params are blank it will behaivor like `all` method.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/where_unless_blank.
+Bug reports and pull requests are welcome on GitHub at https://github.com/platbr/where_unless_blank.
