@@ -33,6 +33,14 @@ Person.ilike_unless_blank(name: params[:name], surname: params[:surname])
 Person.like_unless_blank(name: params[:name], surname: params[:surname])
 ```
 
+If u like short names u can use:
+
+`wub` or `where_ub` for `where_unless_blank`
+
+`iub` or `ilike_ub` for `ilike_unless_blank`
+
+`lub` or `like_ub` for `like_unless_blank`
+
 If all params are blank it will behaivor like `all` method.
 
 
